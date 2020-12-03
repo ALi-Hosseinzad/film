@@ -1,0 +1,93 @@
+.filter {
+  position: fixed;
+  display: inline-flex;
+  cursor: pointer;
+  animation: fadeIn 0.3s;
+  transition: opacity 0.4s;
+  opacity: 0.5;
+  color: #181818;
+  left: 20px;
+  bottom: 20px;
+  z-index: 2;
+  box-shadow: 0 12px 14px 0 rgba(0, 0, 0, 0.5);
+  width: auto;
+  height: 48px;
+  padding: 0 16px;
+  min-width: 48px;
+  min-height: auto;
+  border-radius: 24px;
+  background-color: white;
+  justify-content: center;
+}
+.filter-items {
+  width: 100%;
+  display: inherit;
+  align-items: inherit;
+  justify-content: inherit;
+}
+.filter-items > img {
+  width: 30px;
+  padding: 5px;
+}
+.filter-items > span {
+  padding: 12px 0px;
+}
+.filter:hover {
+  opacity: 1;
+}
+/* *********************************** */
+/* filterItems */
+.filterBtn {
+  background: #ffffff1a;
+  border: 1px solid black !important;
+  padding: 5px 30px !important;
+  border-radius: 30px !important;
+  color: #b7b7b7 !important;
+  width: 33% !important;
+  margin: 0px 10px !important;
+}
+.filterBtn:hover {
+  background-color: #ffc100 !important;
+  border: 1px solid black !important;
+  color: #000 !important;
+}
+.filter-selected {
+  background-color: #ffc100 !important;
+  color: black !important;
+  text-decoration: none;
+}
+.filter-label {
+  width: 110px;
+  display: inline-block;
+  text-align: left;
+  padding-left: 10px;
+  color: aliceblue;
+}
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0.5;
+  }
+}
+.group-btn {
+  width: calc(90% - 90px);
+  height: 40px;
+  display: inline-block !important;
+  padding: 7px 12px !important;
+  border-radius: 30px !important;
+  background-color: rgba(255, 255, 255, 0.1) !important;
+  margin-top: 5px !important;
+  color: #b7b7b7 !important;
+  font-family: BYekan;
+}
+.group-btn .MuiButton-label .MuiButton-endIcon{
+ float: left;
+ font-size: inherit;
+}
+.group-icon {
+  margin: 0px !important;
+  display:inline-block;
+  text-align: left;
+}

@@ -1,0 +1,134 @@
+.footer-header {
+  display: block;
+}
+.footer-header > h2 {
+  display: inline-block;
+}
+.footer-social {
+  display: flex;
+  direction: ltr;
+  text-align: left;
+  align-items: center;
+}
+.footer-social > p {
+  color: #ffc100;
+}
+.footer-social-item {
+  color: rgb(167, 172, 175);
+  padding: 5px;
+  display: inline-flex;
+}
+.footer-body-item:hover {
+  color: #ffc100;
+}
+.footer-body {
+  text-align: right;
+  margin-right: 10px;
+}
+.footer-body-item {
+  margin-left: 10px;
+  text-decoration: none;
+  color: rgb(97, 137, 160);
+}
+
+.footer-btn {
+  color: white;
+  float: left;
+  width: auto;
+  border: 1px solid white;
+  display: flex;
+  padding: 5px;
+  align-items: center;
+  border-radius: 10px;
+  text-decoration: none;
+  margin-left: 10px;
+}
+.footer-btn-text {
+  font-size: 62.5%;
+}
+.footer-img {
+  text-align: center;
+  display: block;
+}
+.footer-btn:hover {
+  color: #ffc100;
+  border: 1px solid #ffc100;
+}
+/* .overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: 0.5s ease;
+  background-color: #008cba;
+} */
+.footer-img-item{
+  width: 150px;
+  height: 100px;
+  opacity: 1;
+  background-color: #3b3b3f;
+}
+.footer-img-item:hover {
+  opacity: 0.5;
+}
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0.5;
+  }
+}
+.footer-img-item {
+  width: 90px;
+  margin: 0 10px;
+  padding: 15px;
+  display: inline-flex;
+}
+.footer-text {
+  color: #636262;
+  margin: 20px 0;
+  font-size: 68.75%;
+  text-align: center;
+}
+.footer-btn1:hover {
+  border-radius: 10px;
+  font-weight: bold;
+  background: #00b6f1;
+  color: white;
+}
+
+.footer-btn2:hover {
+  color: white;
+  border-radius: 10px;
+  background: radial-gradient(
+    circle at 33% 100%,
+    #fed373 4%,
+    #f15245 30%,
+    #d92e7f 62%,
+    #9b36b7 85%,
+    #515ecf
+  );
+  -webkit-text-fill-color: transparent;
+}
+.footer-btn3:hover {
+  border-radius: 10px;
+  font-weight: bold;
+  background: #09a5da;
+  color: white;
+}
+.footer-btn4:hover {
+  border-radius: 10px;
+  font-weight: bold;
+  background: #3b5998;
+  color: white;
+}
+.filmnet{
+  font-weight: bold;
+  font-size: 16px;
+  font-style: oblique;
+}

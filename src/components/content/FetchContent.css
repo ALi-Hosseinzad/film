@@ -1,0 +1,29 @@
+@import url("https://fonts.googleapis.com/css?family=Luckiest+Guy");
+.scroll {
+  overflow-y: hidden !important;
+  display: grid;
+  justify-content: center;
+  overflow-x: hidden !important;
+}
+.loader {
+  text-align: center;
+  position: relative;
+  font-family: BYekan;
+  font-size: 2em;
+  overflow: hidden;
+  background: linear-gradient(90deg, rgb(87, 86, 86), #fff, rgb(109, 108, 108));
+  background-repeat: no-repeat;
+  background-size: 80%;
+  animation: animate 3s linear infinite;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: rgba(255, 255, 255, 0);
+}
+
+@keyframes animate {
+  0% {
+    background-position: -500%;
+  }
+  100% {
+    background-position: 500%;
+  }
+}

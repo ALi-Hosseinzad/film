@@ -1,0 +1,26 @@
+
+.contenet-header {
+  padding: 10px 5px;
+  position: relative;
+  margin: 10px auto;
+  border-bottom:1px solid  #1a1717;
+  padding: 10px;
+}
+.contenet-header-btn {
+  top: 0;
+  left: 0;
+  position: absolute !important;
+  color: #949494;
+  border: solid 2px #191919 !important;
+  padding: 5px 15px !important;
+  background-color: transparent !important;
+  white-space: nowrap;
+  border-radius: 8px;
+  font-weight: bold;
+  text-transform: none;
+}
+.contenet-header-btn:hover{
+  color: #ffc100;
+  border: solid 1px #ffc100 !important;
+  
+}

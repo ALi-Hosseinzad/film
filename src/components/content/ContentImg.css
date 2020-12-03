@@ -1,0 +1,16 @@
+
+.content-img {
+  display: inline-block;
+  width: 100%;
+  height: 243px;
+  cursor: pointer;
+}
+.content-img > img {
+  width: 100%;
+  height: 100%;
+  padding: 4px;
+  position: relative;
+  border-radius: 4px;
+  background-size: contain;
+  background-position: inherit;
+}
